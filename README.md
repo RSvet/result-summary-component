@@ -1,4 +1,4 @@
-# Results summary component
+# Result summary component
 
 - Challenge from Frontend Mentor built using CSS, HTML and JS
 - This is page component for displaying test results. Scores are displayed with counter
