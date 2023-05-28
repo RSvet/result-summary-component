@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Summary Component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="assets/images/favicon-32x32.png" rel="icon" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main class="component">
+      <section class="section result">
+        <h2 class="result__title">Your result</h2>
+        <div class="result__bubble">
+          <p class="result__score score">0</p>
+          <p class="result__score-range">of 100</p>
+        </div>
+        <div class="result__text">
+          <h1 class="result__text-title">Great</h1>
+          <p class="result__text-description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </section>
+      <section class="section summary">
+        <h2 class="summary__title">Summary</h2>
+        <div class="summary__scores">
+          <div class="summary__scores-category summary__scores-reaction">
+            <img class="category__icon" src="" alt="react" />
+            <p class="category category__reaction"></p>
+            <div class="category__points">
+              <span class="points score">0</span
+              ><span class="points-range"> / 100</span>
+            </div>
+          </div>
+          <div class="summary__scores-category summary__scores-memory">
+            <img class="category__icon" src="" alt="memory" />
+            <p class="category category__memory"></p>
+            <div class="category__points">
+              <span class="points score">0</span
+              ><span class="points-range"> / 100</span>
+            </div>
+          </div>
+          <div class="summary__scores-category summary__scores-verbal">
+            <img class="category__icon" src="" alt="verbal" />
+            <p class="category category__verbal"></p>
+            <div class="category__points">
+              <span class="points score">0</span
+              ><span class="points-range"> / 100</span>
+            </div>
+          </div>
+          <div class="summary__scores-category summary__scores-visual">
+            <img class="category__icon" src="" alt="visual" />
+            <p class="category category__visual"></p>
+            <div class="category__points">
+              <span class="points score">0</span
+              ><span class="points-range"> / 100</span>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="summary__button">Continue</a>
+      </section>
+    </main>
+  </body>
+</html>
