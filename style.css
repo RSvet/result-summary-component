@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,10 +212,12 @@ body {
 }
 
 @media only screen and (max-width: 40em) {
+  body {
+    display: block;
+  }
   .component {
     flex-direction: column;
     margin: 0;
-    height: 100vh;
   }
   .result {
     border-top-left-radius: 0;
