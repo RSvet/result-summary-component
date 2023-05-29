@@ -9,6 +9,6 @@ Score data is provided using asynchronious JS.
 
 [Result Summary Component](https://result-summary-com.netlify.app/)
 
-![Image](screenshot1.png)
+![Image](screen.png)
 
 ![Main](/result-summary.gif)
