@@ -1,7 +1,13 @@
-# Result summary component
+# Result Summary Component
 
-- Challenge from Frontend Mentor built using CSS, HTML and JS
-- This is page component for displaying test results. Scores are displayed with counter
-- Score data is provided using asynchronious JS
+Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub) built using CSS, HTML and JS.<br>
+This is page component for displaying test results.<br>
+Scores are displayed with counter.<br>
+Score data is provided using asynchronious JS.
 
-Demo: https://result-summary-com.netlify.app/
+## Demo
+
+[Result Summary Component](https://result-summary-com.netlify.app/)
+
+![Image](/screenshots/screenshot1.png)
+![Image](/screenshots/screenshot2.png)
